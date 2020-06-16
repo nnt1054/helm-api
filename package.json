@@ -1,0 +1,16 @@
+{
+  "name": "kubeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil Toledo <ntoledo@berkeley.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.11.2",
+    "express": "^4.17.1"
+  }
+}
